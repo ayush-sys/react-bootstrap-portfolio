@@ -6,7 +6,7 @@ import CustomCard from './Card';
 
 const technologies = () => {
     return ( 
-    <div id="technologies" className="my-2"> 
+    <div id="technologies" className="my-2 app-section"> 
         <h2 className="py-2">Technologies</h2>
         <CardDeck>
             <CustomCard/>

@@ -6,7 +6,7 @@ import { educationData } from '../data';
 
 const Education = () => {
     return ( 
-    <div id="education" className="my-2"> 
+    <div id="education" className="my-2 app-section"> 
         <h2 className="py-2">Education</h2>
         <CardDeck>      
         {educationData.map((data,id) => {

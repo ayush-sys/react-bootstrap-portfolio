@@ -6,7 +6,7 @@ import {FaGithub, FaTwitter, FaLinkedin} from 'react-icons/fa'
 
 const Contacts = () => {
     return ( 
-        <div className="my-2" id="contacts">
+        <div className="my-2 app-section" id="contacts">
         <h2 className="py-2">Contacts</h2>
         <Container>
             <Row>
