@@ -1,7 +1,9 @@
 import React from 'react';
 import '../App.css';
-import {CardDeck}from 'react-bootstrap';
-import CustomCard from './Card';
+import {CardDeck, Image}from 'react-bootstrap';
+// import CustomCard from './Card';
+import { logos } from '../data';
+
 
 
 const technologies = () => {
@@ -9,7 +11,14 @@ const technologies = () => {
     <div id="technologies" className="my-2 app-section"> 
         <h2 className="py-2">Technologies</h2>
         <CardDeck>
-            <CustomCard/>
+            {/* <CustomCard/> */}
+            <div className='logos-section'>
+                {logos.map((logo) => {
+                    return (
+                        <Image src={`${process.env.PUBLIC_URL}` + `${logo}`} className='tech-logos'/>
+                    );
+                })}
+            </div>
         </CardDeck>
     </div> );
 }
