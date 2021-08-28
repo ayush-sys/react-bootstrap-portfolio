@@ -42,7 +42,7 @@ const Contacts = () => {
                 <Col md={6}>
                 <div className="footer-text">
                     <p>{footerData.quote}</p>
-                    <a>© {footerData.developer}</a>
+                    <p>© {footerData.developer}</p>
                 </div>
                 </Col>
             </Row>

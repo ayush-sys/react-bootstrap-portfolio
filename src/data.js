@@ -4,6 +4,10 @@ export const aboutData = {
   body:'I want to create platforms that can solve real time problems.'
 };
 
+export const demo = {
+  react:'react.svg'
+};
+
 
 export const logos = [
   '/images/logos/html5.svg',
@@ -44,7 +48,7 @@ export const Data = [
   },
   {
     title: "Machine Larning",
-    desc: "Fasicnated by machine learning, can make some good projects in this domain.",
+    desc: "Fasicnated by machine learning, have made some good projects in this domain.",
     id: 3
   },
   {

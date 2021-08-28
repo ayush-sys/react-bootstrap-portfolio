@@ -3,10 +3,28 @@
     margin: 0.5rem;
 }
 
-.tech-logos{
+.tech{
     margin: 0.5rem;
     padding: 0.5rem;
     height: 3.5rem;
+}
+
+.work{
+    height: 10rem;
+}
+
+.job-title{
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+.smg{
+    padding: 0.5rem;
+}
+
+.ins{
+    padding: 2.5rem;
 }
 
 .logos-section{
