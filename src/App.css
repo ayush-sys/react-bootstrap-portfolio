@@ -9,11 +9,18 @@
     height: 3.5rem;
 }
 
+.logos-section{
+    margin-bottom: 1.2rem;
+}
+
 .footer-social-icons{
     margin-top: 0.5rem;
     margin-right: 1rem;
 }
 
+.mail-form{
+    margin-top: 0.5rem;
+}
 
 .profile-pic{
     height: 15rem;

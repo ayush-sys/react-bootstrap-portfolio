@@ -1,23 +1,29 @@
 export const aboutData = {
   name:'Ayush Pattanayak',
   sub:'Student | Web Develeoper | ML Enthusiast',
-  body:'I create platforms that enable people to solve problems.'
+  body:'I want to create platforms that can solve real time problems.'
 };
 
 
 export const logos = [
   '/images/logos/html5.svg',
   '/images/logos/css3.svg', 
-  '/images/logos/java.svg',
-  '/images/logos/python.svg',
   '/images/logos/js.svg',
   '/images/logos/react.svg',
   '/images/logos/bootstrap.svg',
+  '/images/logos/java.svg',
+  '/images/logos/python.svg',
+  '/images/logos/nodejs.svg',
   '/images/logos/sql.svg',
   '/images/logos/mongodb.svg',
-  '/images/logos/neurons.svg',
   '/images/logos/figma.svg',
+  '/images/logos/numpy.svg',
+  '/images/logos/pandas.svg',
+  '/images/logos/matplotlib.svg',
+  '/images/logos/seaborn.svg',
+  '/images/logos/tensorflow.svg',
   '/images/logos/git.svg',
+  '/images/logos/github.svg',
   '/images/logos/heroku.svg',
   '/images/logos/netlify.svg',
   '/images/logos/firebase.svg'
@@ -28,21 +34,23 @@ export const logos = [
 export const Data = [
   {
     title: "Front-End",
-    desc: "Experienced with front-end technologies & UI/UX designs. Fully responsive & Awesome looking with good UI elements.",
-    footer: ['/images/icons/react.svg','/images/icons/bootstrap.svg','/images/icons/figma.svg'],
+    desc: "I'm experienced with front-end libraries like react & can make fully responsive user freindly websites.",
     id: 1
   },
   {
     title: "Back-End",
-    desc: "I am experienced with JavaScript for back-end development, good at wiriting efficient algorithms & have excellent debugging skills.",
-    footer: ['/images/icons/nodejs.svg','/images/icons/js.svg','/images/icons/mongodb.svg'],
+    desc: "I'm experienced with back-end developments with frameworks like Node JS & Express JS, good at wiriting efficient algorithms & have excellent debugging skills.",
     id: 2
   },
   {
-    title: "Tools",
-    desc: "Experienced with CI/CD tools like Git, Docker & various hosting solutions like Heroku & AWS",
-    footer: ['/images/icons/git.svg', '/images/icons/github.svg', '/images/icons/aws.svg'],
+    title: "Machine Larning",
+    desc: "Fasicnated by machine learning, can make some good projects in this domain.",
     id: 3
+  },
+  {
+    title: "Tools & Hosting",
+    desc: "I'm experienced with VCS systems like Git & GitHub and hosting solutions like Heroku & Netlify.",
+    id: 4
   }
 ];
 
@@ -65,3 +73,8 @@ export const educationData = [
   }
 ];
 
+
+export const footerData = {
+  quote:'Dont repeat yourself. Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.',
+  developer:'Ayush Pattanayak'
+};

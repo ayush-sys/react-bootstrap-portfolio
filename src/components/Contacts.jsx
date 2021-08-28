@@ -1,7 +1,9 @@
 import React from 'react';
 import '../App.css';
 import {Container,Col,Row,Button} from 'react-bootstrap';
-import {FaGithub, FaTwitter, FaLinkedin} from 'react-icons/fa'
+import {FaGithub, FaTwitter, FaLinkedin} from 'react-icons/fa';
+import {MdEmail} from 'react-icons/md';
+import { footerData } from '../data';
 
 
 const Contacts = () => {
@@ -10,11 +12,18 @@ const Contacts = () => {
         <h2 className="py-2">Contacts</h2>
         <Container>
             <Row>
+
+                {/* 1st Column */}
                 <Col md={6}>
                 <div className="footer-text">
                     <p>
-                        Phone : 0000-000-000 <br/>
-                        Email : contactme@gmail.com
+                        Want to discuss a project or just want to say Hii 👋 ! <br/>
+                        <form method="post" action="mailto:demomail@gmail.com" className='mail-form'>
+                            <Button variant='outline-info' type='submit'>
+                                Drop me a mail here
+                                <MdEmail/>
+                            </Button>
+                        </form>
                     </p>
                     <Button variant="outline-info" className="footer-social-icons" href="https://github.com/ayush-sys" size="md">
                         <FaGithub size="1.2em"/>
@@ -29,13 +38,11 @@ const Contacts = () => {
                 </Col>
 
 
+                {/* 2nd Column */}
                 <Col md={6}>
                 <div className="footer-text">
-                    <p>
-                        “Don’t repeat yourself. Every piece of knowledge must have a single, unambiguous, 
-                        authoritative representation within a system.” <br/>
-                        — Andy Hunt and Dave Thomas
-                    </p>
+                    <p>{footerData.quote}</p>
+                    <a>© {footerData.developer}</a>
                 </div>
                 </Col>
             </Row>
@@ -44,5 +51,6 @@ const Contacts = () => {
      );
 }
  
+
 export default Contacts;
 
